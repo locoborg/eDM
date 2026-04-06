@@ -1,0 +1,98 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: eDM - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1.SEG\LOCALS~1\Temp\RSP135.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GR /GX /ZI /Od /I "C:\Work\Dev\CxImage\include" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fr"Debug/" /Fo"Debug/" /Fd"Debug/" /FD /c 
+"C:\Work\Dev\eDM\eDMView.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1.SEG\LOCALS~1\Temp\RSP135.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1.SEG\LOCALS~1\Temp\RSP136.tmp" with contents
+[
+wininet.lib png.lib jasper.lib jpeg.lib zlib.lib tiff.lib j2k.lib jbig.lib cximage.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/eDM.pdb" /debug /machine:I386 /out:"Debug/eDM.exe" /libpath:"C:\Work\Dev\CxImage\lib\Debug" 
+.\Debug\BCMenu.obj
+.\Debug\ChildFrm.obj
+.\Debug\DlgCapture.obj
+.\Debug\DlgColorize.obj
+.\Debug\DlgCombine.obj
+.\Debug\DlgDecBpp.obj
+.\Debug\DlgDither.obj
+.\Debug\DlgFFT.obj
+.\Debug\DlgGamma.obj
+.\Debug\DlgHisto.obj
+.\Debug\DlgIncBpp.obj
+.\Debug\DlgOpacity.obj
+.\Debug\DlgOptions.obj
+.\Debug\DlgPalette.obj
+.\Debug\DlgRepair.obj
+.\Debug\DlgResample.obj
+.\Debug\DlgRotate.obj
+.\Debug\DlgText.obj
+.\Debug\DlgThreshold.obj
+.\Debug\DlgURL.obj
+.\Debug\eDM.obj
+.\Debug\eDMDoc.obj
+.\Debug\eDMView.obj
+.\Debug\ImgList.obj
+.\Debug\logomdi.obj
+.\Debug\MainFrm.obj
+.\Debug\Quantize.obj
+.\Debug\StdAfx.obj
+.\Debug\TwainCpp.obj
+.\Debug\xTargetButton.obj
+.\Debug\eDM.res
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1.SEG\LOCALS~1\Temp\RSP136.tmp"
+<h3>Output Window</h3>
+Compiling...
+eDMView.cpp
+Linking...
+Creating temporary file "C:\DOCUME~1\ADMINI~1.SEG\LOCALS~1\Temp\RSP137.tmp" with contents
+[
+/nologo /o"Debug/eDM.bsc" 
+.\Debug\StdAfx.sbr
+.\Debug\BCMenu.sbr
+.\Debug\ChildFrm.sbr
+.\Debug\DlgCapture.sbr
+.\Debug\DlgColorize.sbr
+.\Debug\DlgCombine.sbr
+.\Debug\DlgDecBpp.sbr
+.\Debug\DlgDither.sbr
+.\Debug\DlgFFT.sbr
+.\Debug\DlgGamma.sbr
+.\Debug\DlgHisto.sbr
+.\Debug\DlgIncBpp.sbr
+.\Debug\DlgOpacity.sbr
+.\Debug\DlgOptions.sbr
+.\Debug\DlgPalette.sbr
+.\Debug\DlgRepair.sbr
+.\Debug\DlgResample.sbr
+.\Debug\DlgRotate.sbr
+.\Debug\DlgText.sbr
+.\Debug\DlgThreshold.sbr
+.\Debug\DlgURL.sbr
+.\Debug\eDM.sbr
+.\Debug\eDMDoc.sbr
+.\Debug\eDMView.sbr
+.\Debug\ImgList.sbr
+.\Debug\logomdi.sbr
+.\Debug\MainFrm.sbr
+.\Debug\Quantize.sbr
+.\Debug\TwainCpp.sbr
+.\Debug\xTargetButton.sbr]
+Creating command line "bscmake.exe @C:\DOCUME~1\ADMINI~1.SEG\LOCALS~1\Temp\RSP137.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+eDM.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
